@@ -1,0 +1,14 @@
+#header {
+  font-size: 42px;
+  background-color: #eaeaeadd;
+}
+
+.center {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+
+  text-decoration-style: none;
+}
