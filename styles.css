@@ -1,18 +1,20 @@
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container {
+  background-color: #e7e7e741;
+  max-width: 900px;
+  min-height: 650px;
+  margin: auto;
+}
+
 #header {
   font-size: 42px;
   background-color: #eaeaeadd;
   color: rgb(65, 65, 65);
 }
-.container {
-  background-color: #e7e7e741;
-  max-width: 900px;
-  max-height: 1000px;
-  margin: auto;
-}
 
-.center {
-  text-align: center;
-}
 img:hover {
   width: 900px;
   cursor: help;
@@ -20,16 +22,42 @@ img:hover {
 
 .list {
   list-style: none;
-  padding: 20px;
 }
 
-li a {
+.container li a {
   text-decoration: none;
   color: rgba(74, 74, 74, 0.956);
   font-size: 24px;
 }
 
+.btn a {
+  text-decoration: none;
+  color: rgba(74, 74, 74, 0.956);
+  font-size: 16px;
+}
+
 li a:hover {
   color: rgba(128, 128, 128, 0.627);
   font-size: 26px;
+}
+
+.btn {
+  font-size: 18x;
+  position: fixed;
+  top: 25px;
+  left: 50px;
+  width: 20px;
+  height: 80px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.btn a:hover {
+  color: rgb(238, 0, 0);
+}
+
+.btn:hover {
 }
