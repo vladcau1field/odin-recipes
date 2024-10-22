@@ -1,14 +1,35 @@
 #header {
   font-size: 42px;
   background-color: #eaeaeadd;
+  color: rgb(65, 65, 65);
+}
+.container {
+  background-color: #e7e7e741;
+  max-width: 900px;
+  max-height: 1000px;
+  margin: auto;
 }
 
 .center {
   text-align: center;
 }
+img:hover {
+  width: 900px;
+  cursor: help;
+}
 
 .list {
   list-style: none;
+  padding: 20px;
+}
 
-  text-decoration-style: none;
+li a {
+  text-decoration: none;
+  color: rgba(74, 74, 74, 0.956);
+  font-size: 24px;
+}
+
+li a:hover {
+  color: rgba(128, 128, 128, 0.627);
+  font-size: 26px;
 }
