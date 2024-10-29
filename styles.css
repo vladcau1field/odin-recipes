@@ -59,5 +59,8 @@ li a:hover {
   color: rgb(238, 0, 0);
 }
 
-.btn:hover {
+@media (max-width: 1050px) {
+  .btn {
+    display: none;
+  }
 }
